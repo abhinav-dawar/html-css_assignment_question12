@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Question 12</title>
+  </head>
+  <body>
+
+    <!-- Navbar  -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#" class="logo">TO THE NEW</a></li>
+        <li style="float: right"><a href="#">Quick Help</a></li>
+        <li style="float: right"><a href="#">Home</a></li>
+      </ul>
+    </nav>
+    <hr />
+
+    <!-- ...........Main Content Area........... -->
+    <div class="container">
+      <div class="head1">BUG REPORT</div>
+
+      <form action="#" id="js-form">
+        <div class="name">
+          <label for="username">Title:*</label>
+          <input type="text" name="username" placeholder="" />
+        </div>
+          <div class="message">
+            <label for="textarea">Description:*</label>
+            <textarea
+              cols="40"
+              rows="8"
+              name="textarea"
+              id="textarea"
+            ></textarea>
+          </div>
+
+          <div class="dropdown">
+            <label for="select-choice">Operating System:</label>
+            <select name="select-choice" id="select-choice">
+              <option value="selection 1">Windows Xp</option>
+              <option value="selection 2">Window 10</option>
+              <option value="selection 3">Linux</option>
+            </select>
+          </div>
+          <div class="dropdown">
+            <label for="select-choice">Product:*</label>
+            <select name="select-choice" id="select-choice">
+              <option value="selection 1">Formoid</option>
+              <option value="selection 2">selection 2</option>
+              <option value="selection 3">selection 3</option>
+            </select>
+          </div>
+          <div class="version">
+          <label for="name">Version:*</label>
+<br>
+          <input type="text" name="name" placeholder="" />
+        </div>
+       
+        <div class="radio">
+          <p>License:</p>
+         
+          <input
+            type="radio"
+            name="radio-choice"
+            id="radio-choice-1"
+            value="choice-1"
+          />
+          <label for="radio-choice-1">Free</label>
+         
+          <input
+            type="radio"
+            name="radio-choice"
+            id="radio-choice-2"
+            value="choice-2"
+          />
+          <label for="radio-choice-2">Buisness</label>
+        </div>
+        <div class="dropdown">
+          <label for="select-choice">Severity:</label>
+          <select name="select-choice" id="select-choice">
+            <option value="selection 1">Critical</option>
+            <option value="selection 2">choice 2</option>
+            <option value="selection 3">Choice 3</option>
+          </select>
+        </div>
+        <div class="attachments">
+          <label for="attachments">Attachments:</label>
+          <br>
+          <input type="file">
+        </div>
+      </form>
+      <div class="head2 button-1"><button>Send</button></div>
+    </div>
+  </body>
+</html>
